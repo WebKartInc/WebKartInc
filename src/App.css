@@ -1,0 +1,33 @@
+  footer {
+    background-color: #121315;
+    /* color: #a7a7a7; */
+    color: white;
+    font-size: 16px;
+    min-height:42px;
+    width:100%;
+  }
+  
+  footer * {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+  }
+  .footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer-menu{
+      margin: 1rem;
+  }
+  .footer-row p,
+  .footer-menu a{
+    color: #a7a7a7;
+    margin: 18px;
+    text-decoration: none;
+  }
+  .footer-menu a:hover{
+      color: #e2e2e2;
+      transition-delay: 1ms;
+  }
